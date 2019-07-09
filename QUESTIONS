@@ -1,0 +1,22 @@
+In addition to implementing the device code, answer the following questions:
+1)  If you run the program like this:
+   ./greyscalar -bw 16 -bh 16 file.ppm
+   how many data elements are calculated by a single internal block? 
+
+
+2)  If you run the program like this:
+   ./greyscalar -bw 8 -bh 16 file.ppm
+   how many data elements are calculated by a single internal block? 
+
+Run the script dotests.sh.
+
+3) In those experiments, which block size or sizes tend to give the best
+performance?
+
+4) In those experiments, which block size or sizes tend to give the worst
+performance?
+
+5) Why do you think the sizes you indicated in 3) provide better performance? 
+
+
+
